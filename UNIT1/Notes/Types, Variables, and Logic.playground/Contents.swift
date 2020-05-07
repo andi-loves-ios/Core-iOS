@@ -80,3 +80,59 @@ let doubleNum = 890.8432
 
 let accountBalance : Double = Double(floatNum) + doubleNum
 print("Account balance is now \(accountBalance).")
+
+//==============================================
+//                   Short hand arithmetic
+//==============================================
+balance -= 180000
+
+print(balance)
+
+
+
+//==============================================
+//                   Boolean - Bool, Comparison Operators
+//==============================================
+var result = 70 < 100
+
+print(result)
+
+var otherResult = result && true
+
+print(otherResult)
+
+
+-5 > -2 && 3 >= -5
+
+//==============================================
+//          Arithmetic operators
+//==============================================
+//==============================================
+// THIS DOES NOT COMPILE - let is immuatable - constant
+//==============================================
+//let salary = 20000
+//salary *= 2
+//print(salary)
+var salary = 20000
+salary *= 2
+// this line above is the same as (salary = salary * 2)
+print(salary)
+
+
+var marathonTime = 6 // 6 hours
+marathonTime /= 2
+print(marathonTime) // 3
+//==============================================
+//      Modulo operator or Remainder operator
+//==============================================
+var modResult = 16 % 3
+print(modResult)
+
+var even = 12 % 6
+print(even)
+
+
+//==============================================
+//                Constants
+//==============================================
+let pi = 3.14
